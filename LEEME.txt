@@ -1,0 +1,20 @@
+APLICACION MOVIL ANDROID EN FLUTTER - LOGIN Y REGISTRO
+
+1. Abre esta carpeta en Visual Studio Code o Android Studio.
+2. Abre una terminal en esta carpeta.
+3. Conecta un celular Android con depuración USB o inicia un emulador de Android Studio.
+4. Ejecuta: flutter pub get
+5. Ejecuta: flutter devices
+6. Ejecuta: flutter run -d ID_DEL_DISPOSITIVO
+   Sustituye ID_DEL_DISPOSITIVO por el identificador del celular o emulador Android.
+
+Para generar el instalador de Android ARM64:
+flutter build apk --debug --target-platform android-arm64
+El archivo se genera en build/app/outputs/flutter-apk/app-debug.apk.
+
+El archivo README.md explica los requisitos, la estructura y la entrega en GitHub.
+El punto de entrada es lib/main.dart. Cada pantalla tiene su propio archivo en lib/screens.
+
+Es una maqueta: no envía correos y no guarda cuentas ni contraseñas.
+En Login acepta un correo válido y una contraseña no vacía.
+En el código de verificación puedes escribir 1234 (o cualquier otro código de cuatro dígitos).
