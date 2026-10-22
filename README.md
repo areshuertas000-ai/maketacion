@@ -2,6 +2,10 @@
 
 Aplicación móvil para **Android**, desarrollada en Flutter para el taller **Login y Registro (App móvil)**. Incluye las seis pantallas, navegación, validaciones y datos compartidos en memoria.
 
+**Repositorio:** [areshuertas000-ai/maketacion](https://github.com/areshuertas000-ai/maketacion).
+
+**Descargas:** [APK para Android ARM64](https://github.com/areshuertas000-ai/maketacion/releases/download/v1.0.0/Login_Registro_Android_ARM64.apk) · [Proyecto completo en ZIP](https://github.com/areshuertas000-ai/maketacion/releases/download/v1.0.0/Login_Registro_Flutter.zip).
+
 APK compilado y probado en un emulador Pixel 6 con Android 17. [Ver captura de la app en Android](docs/android-login.png).
 
 Referencia visual: [Login y Registro - App móvil en Figma](https://www.figma.com/design/auqlin8ZFmcTs8deTsAgYi/Login-y-Registro-%E2%80%93-App-m%C3%B3vil?node-id=0-1).
@@ -114,17 +118,14 @@ El proyecto conserva un destino web para vistas previas opcionales con `flutter 
 
 Las capturas individuales están en `docs/pantallas/`. Para regenerarlas desde los widgets reales, ejecuta `flutter test tool/capture_screens.dart --update-goldens`.
 
-## Entrega en GitHub
-
-Crea un repositorio vacío en tu cuenta de GitHub. Dentro de esta carpeta ejecuta:
+## Descargar el código desde GitHub
 
 ```bash
-git init
-git add .
-git commit -m "Implementa taller de login y registro en Flutter"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/login-registro-flutter.git
-git push -u origin main
+git clone https://github.com/areshuertas000-ai/maketacion.git
+cd maketacion
+flutter pub get
+flutter devices
+flutter run -d ID_DEL_DISPOSITIVO
 ```
 
-Reemplaza `TU_USUARIO` y el nombre del repositorio por los tuyos. Si usas GitHub CLI, inicia sesión con `gh auth login`. Entrega el enlace del repositorio: el taller pide código fuente y este README. No subas `build/`, `.dart_tool/` ni `android/local.properties`; ya están excluidos por `.gitignore`.
+El código fuente, las pruebas y las capturas están en este repositorio. El APK, el ZIP y las sumas SHA-256 se encuentran en la [entrega v1.0.0](https://github.com/areshuertas000-ai/maketacion/releases/tag/v1.0.0). Las carpetas generadas `build/`, `.dart_tool/` y la configuración local de Android se excluyen del código versionado mediante `.gitignore`.

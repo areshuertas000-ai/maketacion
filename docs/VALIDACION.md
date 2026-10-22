@@ -24,4 +24,4 @@ El instalador de entrega es `Login_Registro_Android_ARM64.apk`, versión 1.0.0, 
 
 Capturas tomadas directamente de Android: [Login](android-login.png) y [Home](android-home.png).
 
-El repositorio remoto en GitHub requiere iniciar sesión en la cuenta del estudiante y subir el proyecto según el README.
+Repositorio de entrega: [areshuertas000-ai/maketacion](https://github.com/areshuertas000-ai/maketacion). Los instaladores y el proyecto comprimido se encuentran en la [versión v1.0.0](https://github.com/areshuertas000-ai/maketacion/releases/tag/v1.0.0).
